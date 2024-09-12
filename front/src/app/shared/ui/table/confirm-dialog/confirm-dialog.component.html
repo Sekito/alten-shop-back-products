@@ -1,0 +1,24 @@
+<p-dialog [(visible)]="visible"
+  [style]="{width: '450px'}"
+  [header]="header"
+  [modal]="true"
+  styleClass="p-fluid"
+  (onHide)="onHide()">
+
+  <ng-template pTemplate="footer">
+    <button pButton
+      pRipple
+      label="Cancel"
+      icon="pi pi-times"
+      class="p-button-text"
+      (click)="onHide()">
+    </button>
+    <button pButton
+      pRipple
+      label="Confirm"
+      icon="pi pi-check"
+      class="p-button-success"
+      (click)="onConfirm()">
+    </button>
+  </ng-template>
+</p-dialog>

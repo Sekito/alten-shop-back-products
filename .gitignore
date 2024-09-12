@@ -1,0 +1,18 @@
+# Angular
+front/node_modules/
+front/dist/
+*.log
+front/angular.json
+front/package-lock.json
+front/.angular/
+
+# Spring Boot
+back/product-management/target/
+*.jar
+*.war
+*.class
+*.log
+.idea/
+*.iml
+*.classpath
+*.project
